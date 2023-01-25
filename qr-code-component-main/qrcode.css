@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(219, 68%, 87%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family: "OutfitBold";
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    font-family: "OutfitExtraLight";
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: "OutfitBold";
+    src: url("./fonts/Outfit-Bold.ttf") format("truetype");
+    font-weight: 400, 700;
+}
+
+@font-face {
+    font-family: "OutfitExtraLight";
+    src: url("./fonts/Outfit-ExtraLight.ttf") format("truetype");
+    font-weight: 400, 700;
+}
+
